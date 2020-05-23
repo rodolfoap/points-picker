@@ -2,7 +2,8 @@
 
 Takes a Geoportail (https://www.geoportail.gouv.fr/) kml file and creates a matrix of correspondences between world and image points from a camera taken picture.
 
-Provides an input matrix for https://github.com/rodolfoap/camera2world-h
+* Provides an input matrix for https://github.com/rodolfoap/screen2world-h (coordinates conversion using a simple homography matrix).
+* Provides an input matrix for https://github.com/rodolfoap/screen2world-k (coordinates conversion using solvePnP() strategy with a camera matrix, distortion coefficients, etc.).
 
 ## Build
 
