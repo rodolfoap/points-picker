@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 	if(argc<3) { std::cerr<<"Usage: "<<argv[0]<<" [IMAGE_FILE POINTS_FILE MUSTACHE_TEMPLATE]" <<std::endl; return 0; }
 	sf::Event event;
 	Form form(argv[2], argv[3]);
-	Window window(1920, 1080, "PPicker", argv[1], form.cSize());
+	Window window(1280, 720, "PPicker", argv[1], form.cSize());
 
 	// Loop
 	form.message(window);
